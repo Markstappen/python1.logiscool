@@ -58,4 +58,14 @@ integer_list = []
 for i in list_bazzare:
     if type(i) == int:
         integer_list.append(i)
-print(integer_list)
+print(integer_list) 
+
+#tache5 - plus grandgap in list
+
+random_number = [58,94,38,33,67,23,52,74,49]
+smallest = min(random_number) 
+biggest = max(random_number)
+print("The smallest num is " + str(smallest))
+print("The biggest num is " + str(biggest))
+biggest_gap = biggest-smallest
+print("the gap between these numbers is " +str(biggest_gap))
