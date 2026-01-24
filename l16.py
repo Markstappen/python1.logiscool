@@ -41,3 +41,4 @@ while inGame:
     if lives == "0":
         print("Tu es mort")
 print("vous etes sorti felicitation")
+
